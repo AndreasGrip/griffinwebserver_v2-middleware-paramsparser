@@ -6,3 +6,5 @@ function middlewareBodyParser(req, res) {
     resolve();
   })
 }
+
+module.exports = middlewareBodyParser;
